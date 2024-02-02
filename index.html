@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>html-london-trip</title>
 </head>
 
 <body>
@@ -17,15 +17,46 @@
 
   <main>
     <div class="immages">
-       <img src="img/pexels-bill-emrich-230794-0.jpg" alt="first image"><!--
+      <img src="img/pexels-bill-emrich-230794-0.jpg" alt="first image"><!--
        --><img src="img/pexels-bill-emrich-230794-1.jpg" alt="second image"><!--
        --><img src="img/pexels-bill-emrich-230794-2.jpg" alt="third image">
-       <!-- insert comment line to supress white space -->
+      <!-- insert comment line to suppress white space -->
     </div>
     <hr />
 
     <section>
       <h2>Le mie spese</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Numero</th>
+            <th>Descrizione</th>
+            <th>Costo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th align="left">1</th>
+            <th>Biglietto Aereo</th>
+            <th>120€</th>
+          </tr>
+          <tr>
+            <th align="left">1</th>
+            <th>Biglietto Aereo</th>
+            <th>120€</th>
+          </tr>
+          <tr>
+            <th align="left">1</th>
+            <th>Biglietto Aereo</th>
+            <th>120€</th>
+          </tr>
+          <tfoot>
+            <th align="left">Totale</th>
+            <th colspan="2" align="right">360€</th> <!--Merged two columns in one-->
+          </tfoot>
+        </tbody>
+      </table>
     </section>
     <hr />
 
@@ -43,7 +74,7 @@
       <h3>Le Foto:</h3>
     </section>
   </main>
-  
+
 </body>
 
 </html>
